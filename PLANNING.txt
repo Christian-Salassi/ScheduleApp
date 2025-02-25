@@ -1,0 +1,8 @@
+Home Screen:
+
+Schedule:
+
+Add:
+*Add an item to the schedule
+*Item should include: Date, Title, Description, Deadline
+*Item should be an object of a "event/assignment" class
