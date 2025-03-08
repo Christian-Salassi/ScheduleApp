@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.03" />
 
     <EditText
-        android:id="@+id/task_date"
+        android:id="@+id/task_start_date"
         android:layout_width="315dp"
         android:layout_height="65dp"
         android:ems="10"
@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.086" />
 
     <EditText
-        android:id="@+id/task_title"
+        android:id="@+id/task_header"
         android:layout_width="315dp"
         android:layout_height="65dp"
         android:layout_marginTop="60dp"
@@ -48,15 +48,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/task_date"
+        app:layout_constraintTop_toBottomOf="@+id/task_start_date"
         app:layout_constraintVertical_bias="0.018" />
 
     <TextView
-        android:id="@+id/task_date_card"
+        android:id="@+id/task_start_date_card"
         android:layout_width="177dp"
         android:layout_height="26dp"
-        android:text="Task Active Date"
-        app:layout_constraintBottom_toTopOf="@+id/task_date"
+        android:text="Task Start Date"
+        app:layout_constraintBottom_toTopOf="@+id/task_start_date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_add"
@@ -73,11 +73,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/task_title"
+        app:layout_constraintTop_toBottomOf="@+id/task_header"
         app:layout_constraintVertical_bias="0.05" />
 
     <EditText
-        android:id="@+id/task_deadline"
+        android:id="@+id/task_end_date"
         android:layout_width="315dp"
         android:layout_height="65dp"
         android:layout_marginTop="76dp"
@@ -92,19 +92,19 @@
         app:layout_constraintVertical_bias="0.098" />
 
     <TextView
-        android:id="@+id/task_title_card"
+        android:id="@+id/task_header_card"
         android:layout_width="177dp"
         android:layout_height="26dp"
         android:text="Task Header"
-        app:layout_constraintBottom_toTopOf="@+id/task_title"
+        app:layout_constraintBottom_toTopOf="@+id/task_header"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/task_date"
+        app:layout_constraintTop_toBottomOf="@+id/task_start_date"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/task_desc_card"
         android:layout_width="177dp"
         android:layout_height="26dp"
         android:text="Task Description"
@@ -112,15 +112,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/task_title"
+        app:layout_constraintTop_toBottomOf="@+id/task_header"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/task_end_date_card"
         android:layout_width="177dp"
         android:layout_height="26dp"
         android:text="Task Deadline"
-        app:layout_constraintBottom_toTopOf="@+id/task_deadline"
+        app:layout_constraintBottom_toTopOf="@+id/task_end_date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -136,6 +136,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/task_deadline" />
+        app:layout_constraintTop_toBottomOf="@+id/task_end_date" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
